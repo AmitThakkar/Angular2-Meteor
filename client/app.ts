@@ -1,3 +1,6 @@
+/**
+ * Created by Amit Thakkar on 8/23/15.
+ */
 import {Component, View, NgFor, bootstrap} from 'angular2/angular2';
 
 @Component({
