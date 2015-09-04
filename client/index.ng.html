@@ -1,6 +1,11 @@
-<p>Nothing here {{ 'yet' + '!' }}</p>
 <div>
+    <parties-form></parties-form>
+
     <ul>
-        <li *ng-for="#party of parties"> {{party.name}} <p>{{party.description}}</p></li>
+        <li *ng-for="#party of parties">
+            {{party.name}}
+            <p>{{party.description}}</p>
+            <button (click)="remove(party)">X</button>
+        </li>
     </ul>
 </div>

@@ -1,0 +1,7 @@
+<form [ng-form-model]="partiesForm" #f="form" (submit)="add(f.value)">
+    <label>Name</label>
+    <input type="text" ng-control="name">
+    <label>Description</label>
+    <input type="text" ng-control="description">
+    <button>Add</button>
+</form>
